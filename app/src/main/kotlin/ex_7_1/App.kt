@@ -70,4 +70,9 @@ fun main() {
 
     val testZero=max(List<Int>(-1,-5,-10,0))
     println(testZero.flatMap { mod3(it) })
+
+
+    print("\nex_7_1\n")
+    println(testLeft.getOrElse { 25 })
+    println(testLeft.orElse { Either.Left("Не шмогла") })
 }
